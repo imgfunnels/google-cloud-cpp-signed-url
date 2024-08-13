@@ -22,7 +22,7 @@ gcloud auth login
 getsigned  <bucket_name> <object_name> <signing_account>
 ```
 
-#### Example: `getsigned bucket.org object.jpg service-account@project.iam.gserviceaccount.com`
+#### Example: `getsigned bucket.org recording.wav services@project.iam.gserviceaccount.com`
 
 Open a terminal and navigate to the directory containing the setup.sh script.
 
