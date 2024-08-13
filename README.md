@@ -1,6 +1,8 @@
 # imgnx.org
 
-<img alt="Static Badge" src="https://img.shields.io/badge/Windows-Not_tested-red">
+<pre>
+<img alt="Static Badge" src="https://img.shields.io/badge/Apple-Tested_👍-blue">  <img alt="Static Badge" src="https://img.shields.io/badge/Windows-Not_tested-red">
+</pre>
 
 #### getsigned
 
