@@ -4,9 +4,11 @@
 <img alt="Static Badge" src="https://img.shields.io/badge/Apple_(Silicon)-Tested_👍-blue">  <img alt="Static Badge" src="https://img.shields.io/badge/Windows_(Intel)-Not_tested-red">
 </pre>
 
-#### getsigned
+## `getsigned`
+
 
 To use the `getsigned` command without installing it to your system's PATH, you can use the provided `setup.sh` script for Unix-based systems. This script will make the `getsigned` command available in the current terminal session.
+
 
 Before you can use `getsigned`, you need to authenticate with Google Cloud. You can do this by running the following command:
 
@@ -15,6 +17,12 @@ gcloud auth login
 ```
 
 ### Usage
+
+```sh
+getsigned  <bucket_name> <object_name> <signing_account>
+```
+
+#### Example: `getsigned bucket.org object.jpg service-account@project.iam.gserviceaccount.com`
 
 Open a terminal and navigate to the directory containing the setup.sh script.
 
