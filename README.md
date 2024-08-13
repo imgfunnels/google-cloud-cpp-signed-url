@@ -1,5 +1,7 @@
 # imgnx.org
 
+<img alt="Static Badge" src="https://img.shields.io/badge/Windows-Not_tested-red">
+
 #### getsigned
 
 To use the `getsigned` command without installing it to your system's PATH, you can use the provided `setup.sh` script for Unix-based systems. This script will make the `getsigned` command available in the current terminal session.
