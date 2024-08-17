@@ -18,6 +18,7 @@ echo getsigned=%getsigned% >> .env
 echo imgnx=%imgnx% >> .env
 
 mkdir "C:\Program Files\getsigned"
+mkdir "C:\Program Files\getsigned"
 cp ./getsigned "C:\Program Files\getsigned\getsigned.exe"
 
 SET getsigned="C:\Program Files\getsigned\getsigned.exe"
