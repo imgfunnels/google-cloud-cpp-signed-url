@@ -14,6 +14,7 @@ echo "Add 'getsigned' to \$PATH?"
 
 echo "Enter your password to continue. press CTRL + C to quit."
 
+sudo cp "$SCRIPT_DIR/getsigned" /usr/bin
 sudo cp "$SCRIPT_DIR/getsigned" /usr/local/bin
 
 if ls /usr/local/bin/getsigned; then
