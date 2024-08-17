@@ -1,6 +1,14 @@
 @echo off
-
-REM This is a sample setup.bat file
+:: Check for administrator rights
+net session >nul 2>&1
+if %errorLevel% NEQ 0 (
+    echo.
+    echo This script requires administrator privileges.
+    echo Please run as an administrator.
+    echo.
+    pause
+    exit /b
+)
 
 REM Set the necessary environment variables
 set GCP_PROJECT_ID=getsigned
